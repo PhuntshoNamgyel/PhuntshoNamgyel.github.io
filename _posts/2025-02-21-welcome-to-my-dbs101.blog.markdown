@@ -1,26 +1,17 @@
 ---
 layout: post
 title: "Welcome to my DBS101 Blog!"
-date: 2025-02-21 +0300
+date: "2025-02-21"
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img:  # Add image post (optional)
+img: gojo-hello.png # Add image post (optional)
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This blog is all about my learning journey through six important units of my course. Each post will focus on what I’ve learned, why it matters, and how it’s helping me grow.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+What You’ll Find Here:
+* Key Takeaways – The most important lessons from each unit.
+* Why It Matters – How these concepts apply in real life.
+* Personal Reflections – My thoughts and growth along the way.
 
-Jekyll also offers powerful support for code snippets:
+This blog is a way for me to reflect on my learning and share insights with others. I hope you find it interesting and maybe even helpful!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Let’s dive in!
