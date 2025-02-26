@@ -3,7 +3,7 @@ layout: post
 title: Unit 1- Introduction to Database Systems
 date: "2025-02-21"
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+img: dbs pic.webp # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [DBS101]
 ---
@@ -15,7 +15,7 @@ Before diving into database systems, I had a basic understanding of databases. T
 
 My view of databases has significantly expanded. I now understand that databases are much more than just a collection of tables; they involve a structured design, multiple levels of abstraction, and various models tailored to different use cases. Here are some key takeaways from my learning:
 
-1. The Purpose and Importance of Database Systems
+## The Purpose and Importance of Database Systems
 
 Previously, I thought of databases as mere storage units, but now I see their broader role in managing and processing data efficiently. They solve common problems associated with traditional file-processing systems, such as:
 
@@ -24,11 +24,11 @@ Previously, I thought of databases as mere storage units, but now I see their br
 * Data isolation and integrity issues
 * Security challenges
 
-2. The Evolution of Database Systems
+## The Evolution of Database Systems
 
 I learned how databases evolved from simple hierarchical and network models to modern relational and NoSQL databases. Understanding the historical progression of database systems—from early file-based systems to the relational model introduced by Edgar F. Codd—helped me appreciate how database management has improved over time.
 
-3. The Variety of Database Models
+## The Variety of Database Models
 
 I previously believed that all databases were relational, but now I know that multiple models exist, including:
 
@@ -39,7 +39,7 @@ I previously believed that all databases were relational, but now I know that mu
 
 Each model serves a unique purpose, from managing highly structured data in banks to supporting flexible, scalable data in social media applications.
 
-4. The Role of Database Languages
+## The Role of Database Languages
 
 One of the biggest surprises for me was learning about different database languages:
 
@@ -50,7 +50,7 @@ One of the biggest surprises for me was learning about different database langua
 
 SQL plays a fundamental role in interacting with databases, but its functions extend beyond simple queries.
 
-5. Database Architecture and Administration
+## Database Architecture and Administration
 
 Before, I had little knowledge about database architecture, but now I understand the various components, such as:
 
