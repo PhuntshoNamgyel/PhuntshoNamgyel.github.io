@@ -3,72 +3,98 @@ layout: post
 title: Unit 1- Introduction to Database Systems
 date: "2025-02-21"
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: dbms.jpg # Add image post (optional)
+img: dbms.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [DBS101]
 ---
-### My Initial Understanding of Databases
 
-Before diving into database systems, I had a basic understanding of databases. To me, a database was simply a structured collection of data that helped store and retrieve information efficiently. I was aware of SQL and relational databases, but I had little knowledge about how databases evolved over time, different data models, or the intricacies of database architecture.
+## My Initial Understanding of Databases
 
-### How My Perspective Has Changed
+Before learning about database systems, I had a basic idea of what a database was. I thought of it as an organized way to store and find information easily. I knew that databases were useful, but I didn’t know much about how they developed over time, the different ways data could be structured, or how databases actually work behind the scenes.
 
-My view of databases has significantly expanded. I now understand that databases are much more than just a collection of tables; they involve a structured design, multiple levels of abstraction, and various models tailored to different use cases. Here are some key takeaways from my learning:
+## How My Perspective Has Changed
 
-## The Purpose and Importance of Database Systems
+My understanding of databases has grown so much. I’ve realized that they’re more than just collections of tables—they have structured designs, multiple levels of abstraction, and different models suited for various applications. Here are some of my key takeaways:
 
-Previously, I thought of databases as mere storage units, but now I see their broader role in managing and processing data efficiently. They solve common problems associated with traditional file-processing systems, such as:
+## 1.1 View of Data
 
-* Data redundancy and inconsistency
-* Difficulty in accessing data
-* Data isolation and integrity issues
-* Security challenges
+I used to think databases were just structured collections of data, but I’ve now learned that data can be organized and represented in different ways. Some of the main models include:
 
-## The Evolution of Database Systems
+* Entity-Relationship (E-R) Model – Helps visualize relationships between entities, making conceptual design easier.
+* Relational Model – Organizes data into tables (rows and columns) with well-defined relationships.
+* Semi-structured Data Models – Used when data doesn’t fit neatly into tables, like XML, JSON, or NoSQL databases.
+* Object-Based Model – Follows object-oriented principles, where data is stored as objects with attributes and behaviors.
 
-I learned how databases evolved from simple hierarchical and network models to modern relational and NoSQL databases. Understanding the historical progression of database systems—from early file-based systems to the relational model introduced by Edgar F. Codd—helped me appreciate how database management has improved over time.
+![dbs-hw](/assets/img/dbs-hw.jpeg)
 
-## The Variety of Database Models
+## 1.2 The Purpose and Importance of Database Systems
 
-I previously believed that all databases were relational, but now I know that multiple models exist, including:
+At first, I thought databases were just for storing data, but I now understand that they play a crucial role in efficiently managing and processing information. They help solve major challenges of traditional file-based systems, such as:
 
-* Entity-Relationship Model (used for conceptual design)
-* Relational Model (widely used for structured data storage)
-* Semi-structured and Object-Based Models (handling unstructured or complex data)
-* NoSQL Models (for large-scale, flexible data management)
+* Data redundancy and inconsistency – Databases provide a single, accurate source of truth.
+* Difficulty in accessing data – Query languages (like SQL) allow structured and flexible retrieval.
+* Data isolation and integrity issues – Constraints and relationships ensure data consistency.
+* Security challenges – Authentication and authorization help protect sensitive data.
 
-Each model serves a unique purpose, from managing highly structured data in banks to supporting flexible, scalable data in social media applications.
+## 1.3 History of Database Systems
 
-## The Role of Database Languages
+Learning about the evolution of databases gave me a new appreciation for how far data management has come:
 
-One of the biggest surprises for me was learning about different database languages:
+* File-Based Systems – Early storage methods were basic and lacked structure.
+* Hierarchical and Network Models – Introduced more structure but had rigid relationships.
+* Relational Model (1970s - Edgar F. Codd) – Revolutionized databases by structuring data into tables with relationships.
+* Object-Oriented & NoSQL Databases – Designed for modern applications, handling large, unstructured datasets.
 
-* Data Definition Language (DDL): Used to define database schema.
-* Data Manipulation Language (DML): Enables data retrieval and modification.
-* Data Control Language (DCL): Manages user permissions.
-* Transaction Control Language (TCL): Ensures consistency in database transactions.
+## 1.4 Database-System Applications
 
-SQL plays a fundamental role in interacting with databases, but its functions extend beyond simple queries.
+Databases are everywhere! Some key areas where they’re used include:
 
-## Database Architecture and Administration
+* Banking – Storing transaction records and account details.
+* E-commerce – Managing customer data, inventory, and transactions.
+* Healthcare – Keeping patient records and medical histories.
+* Social Media – Handling massive amounts of user-generated content like posts, images, and videos.
+* Cloud Computing – Providing scalable, distributed database solutions.
 
-Before, I had little knowledge about database architecture, but now I understand the various components, such as:
+## 1.5 Database Languages
 
-* Storage Management: Organizing data efficiently.
+I didn’t realize there were different types of database languages, each serving a specific purpose:
 
-* Query Processing: Optimizing query execution.
+* Data Definition Language (DDL) – Used to set up and modify the structure of a database (e.g., CREATE, ALTER, DROP).
+* Data Manipulation Language (DML) – Handles retrieving and updating data (e.g., SELECT, INSERT, UPDATE, DELETE).
 
-* Transaction Management: Ensuring reliability through ACID properties (Atomicity, Consistency, Isolation, Durability).
+## 1.6 Database Design
 
-Additionally, I gained insight into different database users and the crucial role of Database Administrators (DBAs) in maintaining database security and performance.
+I learned that database design is crucial for efficient data storage and retrieval. Important aspects include:
 
-### Final Thoughts
+* Conceptual Design – Using the E-R Model to define relationships between data.
+* Logical Design – Converting conceptual designs into structured relational schemas.
 
-My understanding of databases has transformed completely. I now recognize databases as powerful systems that go beyond simple data storage, enabling businesses and applications to function efficiently. Moving forward, I am excited to explore more advanced topics like database design, optimization, and real-world applications.
+## 1.7 Database Engine
 
-If you're starting your journey in database systems, I highly recommend taking the time to understand these fundamental concepts—it will reshape how you think about data and its management!
+Key components of a database engine include:
 
-Stay tuned for more insights as I continue my learning journey!
+* Storage Management – Organizes data efficiently.
 
+* Query Processing – Optimizes query execution.
 
-![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
+* Transaction Management – Ensures reliability through ACID properties (Atomicity, Consistency, Isolation, Durability).
+
+## 1.8 Database and Application Architecture
+
+Databases interact with applications in different ways:
+
+![3-tier architecture](/assets/img/3-tier-architecture.jpeg)
+
+* Single-tier Architecture – Database and application run on the same system.
+* Two-tier Architecture – A client communicates directly with a database server.
+* Three-tier Architecture – An additional middle layer (API or web server) improves scalability.
+* Distributed Databases – Data is spread across multiple locations for better reliability and speed.
+
+## Homework
+
+![dbs-dbms](/assets/img/dbs-dbms.jpeg)
+
+## Conclusion
+
+This unit has helped me understand databases much better. I now see that they do more than store data—they help organize and manage information efficiently. Learning about data models, architecture, and languages has been really helpful. I’m excited to learn more and see how databases are used in real-life situations.
+
