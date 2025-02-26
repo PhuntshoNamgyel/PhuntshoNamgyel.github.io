@@ -3,7 +3,7 @@ layout: post
 title: "Welcome to my DBS101 Blog!"
 date: "2025-02-21"
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: gojo-hello.png # Add image post (optional)
+img: hello-gojo.gif # Add image post (optional)
 ---
 This blog is all about my learning journey through six important units of my course. Each post will focus on what I’ve learned, why it matters, and how it’s helping me grow.
 
