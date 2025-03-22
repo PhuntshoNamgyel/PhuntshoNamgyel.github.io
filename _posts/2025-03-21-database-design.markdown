@@ -3,7 +3,7 @@ layout: post
 title: Unit 2 - Database Design
 date: "2025-03-21"
 description: A deep dive into database design, covering relational modeling, ER models, cardinalities, primary keys, and schema design.
-img: database-design.png # Add image post (optional)
+img: dbs.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [DBS101, Database Design]
 ---
