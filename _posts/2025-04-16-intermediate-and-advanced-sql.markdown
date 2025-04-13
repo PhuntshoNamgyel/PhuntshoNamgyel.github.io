@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unit 4- Intermediate and Advanced SQL
-date: "2025-04-14"
+date: "2025-04-16"
 description: Advanced SQL techniques for complex queries, data manipulation, and efficient database management.
 img: isql.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
