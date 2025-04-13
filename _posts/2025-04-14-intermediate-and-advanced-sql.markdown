@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Unit 4- Intermediate and Advanced SQL
-date: "2025-04-16"
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: isql.png # dp
+date: "2025-04-14"
+description: Advanced SQL techniques for complex queries, data manipulation, and efficient database management.
+img: isql.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [DBS101]
 ---
