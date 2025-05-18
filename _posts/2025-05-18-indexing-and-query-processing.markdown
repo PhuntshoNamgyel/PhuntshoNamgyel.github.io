@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Unit 6 - Indexing and Query Processing
-date: "2025-05-19"
+date: "2025-05-18"
 description: Deep dive into indexing structures, query optimization, and execution strategies in SQL.
-img: indexing.png # Add image post (optional)
+img: index.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [DBS101]
 ---
