@@ -8,7 +8,6 @@ fig-caption: # Add figcaption (optional)
 tags: [DBS101]
 ---
 
-## Topic: Indexing and Query Processing
 
 ### Introduction  
 Before this unit, I thought indexing was just something databases used to "speed up" queries, without knowing exactly how or why. I also had no idea how complex query processing really was behind the scenes.  
