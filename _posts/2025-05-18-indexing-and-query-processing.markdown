@@ -124,7 +124,16 @@ Optimizers **reorder joins**, apply **heuristics**, and use **equivalence rules*
 
 I’ll admit — at first I was overwhelmed. Index types, cost formulas, and B+ trees all seemed complicated. But as I explored examples in PostgreSQL and read through the materials, things started to click.
 
-Using `EXPLAIN ANALYZE` helped me **see how queries actually get executed** and how indexes improve speed.  
+Using `EXPLAIN ANALYZE` helped me **see how queries actually get executed** and how indexes improve speed.
+- Example:
+   ```sql
+   EXPLAIN ANALYZE
+   SELECT *
+   FROM properties
+   WHERE price > 500000
+   AND city = 'San Francisco';
+   ```
+This command shows the actual execution plan and runtime statistics, letting me see whether the database uses indexes or scans the whole table.
 
 I also learned that:
 - Not every index is helpful — sometimes it can slow things down.
